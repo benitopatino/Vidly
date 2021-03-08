@@ -223,6 +223,10 @@
     <Compile Include="Migrations\202103072342484_PopulateGenreTable.Designer.cs">
       <DependentUpon>202103072342484_PopulateGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103080023014_AddedDateAndStockPropertyToMovie.cs" />
+    <Compile Include="Migrations\202103080023014_AddedDateAndStockPropertyToMovie.Designer.cs">
+      <DependentUpon>202103080023014_AddedDateAndStockPropertyToMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -351,6 +355,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103072342484_PopulateGenreTable.resx">
       <DependentUpon>202103072342484_PopulateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103080023014_AddedDateAndStockPropertyToMovie.resx">
+      <DependentUpon>202103080023014_AddedDateAndStockPropertyToMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
